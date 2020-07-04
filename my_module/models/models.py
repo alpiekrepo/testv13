@@ -1,7 +1,11 @@
 # -*- coding: utf-8 -*-
 
-# from odoo import models, fields, api
+from odoo import models, fields, api
 
+class my_ResPartner
+    _inherit = 'res.partner'
+    
+    additional_note = fields.Char(string='Additional Note')
 
 # class my_module(models.Model):
 #     _name = 'my_module.my_module'

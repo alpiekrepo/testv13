@@ -1,8 +1,8 @@
 # -*- coding: utf-8 -*-
 
-from odoo import models, fields, api
+from odoo import models, fields
 
-class my_ResPartner
+class my_ResPartner(models.Model)
     _inherit = 'res.partner'
     
     additional_note = fields.Char(string='Additional Note')

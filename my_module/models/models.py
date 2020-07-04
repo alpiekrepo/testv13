@@ -7,8 +7,10 @@ class ResPartner(models.Model):
     _inherit = 'res.partner'
     
     additional_note = fields.Char(string='Additional Note')
+    
     shoe_size = fields.Char(string='Shoe size')
 
+    
 # class my_module(models.Model):
 #     _name = 'my_module.my_module'
 #     _description = 'my_module.my_module'

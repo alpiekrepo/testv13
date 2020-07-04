@@ -2,7 +2,7 @@
 
 from odoo import models, fields
 
-class my_ResPartner(models.Model)
+class ResPartner(models.Model)
     _inherit = 'res.partner'
     
     additional_note = fields.Char(string='Additional Note')

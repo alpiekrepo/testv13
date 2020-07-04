@@ -7,7 +7,7 @@
        	<field name="arch" type="xml">
             <field name="category_id" position="after">
                 <field name="additional_note"/>
-                <field name="shoe size"/>
+                <field name="shoe_size"/>
             </field>
         </field>
     </record>

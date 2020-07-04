@@ -1,11 +1,11 @@
 <odoo>
   <data>
-    <record id="view_res_partner_form_inherit" model="ir.ui.view">
+    <record id="view_res_partner_form_my" model="ir.ui.view">
     	<field name="name">Contact Custom</field>
        	<field name="model">res.partner</field>
        	<field name="inherit_id" ref="base.view_partner_form"/>
        	<field name="arch" type="xml">
-            <field name="phone" position="after">
+            <field name="category_id" position="after">
                <field name="additional_note"/>
             </field>
         </field>
